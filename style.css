@@ -1,0 +1,57 @@
+@import url("https://fonts.googleapis.com/css2?family=Aleo:wght@700&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(211, 211, 211, 0.37);
+  font-family: "Aleo", serif;
+}
+
+img {
+  margin-left: 10px;
+}
+
+.navbar-collapse {
+  justify-content: flex-end;
+}
+
+h1 {
+  margin: 25px 0 0 0;
+  text-align: center;
+  font-size: 2rem;
+}
+
+form {
+  width: 500px;
+  margin: 25px auto;
+}
+
+.js-fejlec {
+  width: 500px;
+  margin: 0 auto 25px;
+  text-align: center;
+  font-size: 1.5rem;
+  text-decoration: underline;
+}
+
+.js-csapatok {
+  width: 500px;
+  margin: 0 auto 50px;
+  font-size: 1rem;
+}
+
+@media (max-width: 575px) {
+  form {
+    width: 300px;
+  }
+
+  .js-fejlec {
+    width: 300px;
+  }
+
+  .js-csapatok {
+    width: 300px;
+  }
+}
